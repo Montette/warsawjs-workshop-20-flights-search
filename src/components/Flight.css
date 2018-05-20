@@ -1,0 +1,36 @@
+/* .flight {
+    border-bottom: 1px solid black;
+    padding-left: 50px;
+    box-shadow: 1px 2px 2px grey;
+    font-family: 'Roboto';
+    font-weight: bold;
+} */
+
+.span {
+    color: rgba(3, 3, 82, 0.884);
+    font-weight: 400;
+}
+
+.flight {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    border: 2px solid #000;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 16px auto;
+    max-width: 800px;
+    padding: 40px 16px;
+  }
+  
+  .flight p {
+    margin: 0;
+  }
+  
+  .path-back p {
+    text-align: right;
+  }
+  
+  .price {
+    display: flex;
+    align-items: center;
+  }
